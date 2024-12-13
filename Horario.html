@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Horario</title>
+    </head>
+    <body style="background-color: black">
+        <h1 style="font-family:Segoe UI;color:greenyellow">Horario</h1>
+        <table border="1" style="margin:auto; font-family:arial">
+            <thead>
+                <th style="color:white">hora/dia</th>
+                <th bgcolor="lime">Lunes</th>
+                <th bgcolor="yellow">Martes</th>
+                <th bgcolor="skyblue">Miercoles</th>
+                <th bgcolor="red">Jueves</th>
+                <th bgcolor="orange">Viernes</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="color:white">8:30-9:30</td>
+                    <td class="Digitalizacion">Digitalizacion</td>
+                    <td class="Sistemas_informaticos">Sistemas informaticos</td>
+                    <td class="Itinerario_personal">Itinerario persoanal</td>
+                    <td class="Sistemas_informaticos">Sistemas informaticos</td>
+                    <td class="Lenguajes_de_marcas">Lenguajes de marcas</td>
+                </tr>
+                <tr>
+                    <td style="color:white">9:30-10:30</td>
+                    <td rowspan="2" class="Programacion">Programacion</td>
+                    <td rowspan="2" class="Base_de_datos">Base de datos</td>
+                    <td rowspan="2" class="Programacion">Programacion</td>
+                    <td class="Base_de_datos">Base de datos</td>
+                    <td class="Itinerario_personal">Itinerario personal</td>
+                </tr>
+                <tr>
+                    <td style="color:white">10:30-11:30</td>
+                    <td class="Lenguajes_de_marcas">Lenguajes de marcas</td>
+                    <td class="Sistemas_informaticos">Sistemas informaticos</td>
+
+                </tr>
+                <tr>
+                    <td style="color:white">11:30-12:00</td>
+                    <td colspan="5" class="Descanso">Descanso</td>
+                </tr>
+                <tr>
+                    <td style="color:white">12:00-13:00</td>
+                    <td class="Base_de_datos">Base de datos</td>
+                    <td rowspan="2" class="Programacion">Programacion</td>
+                    <td class="Entornos_de_desarrollo">Entornos de desarrollo</td>
+                    <td class="Programacion">Programacion</td>
+                    <td class="Base_de_datos">Base de datos</td>
+                </tr>
+                <tr>
+                    <td style="color:white">13:00-14:00</td>
+                    <td class="Sostenibilidad">Sostenibilidad</td>
+                    <td class="Base_de_datos">Base de datos</td>
+                    <td class="Itinerario_personal">Itinerario persoanal</td>
+                    <td class="Programacion">Programacion</td>
+                </tr>
+                <tr>
+                    <td style="color:white">14:00-15:00</td>
+                    <td class="Sistemas_informaticos">Sisemas informaticos</td>
+                    <td class="Lenguajes_de_marcas">Lenguajes de marcas</td>
+                    <td class="Sistemas_informaticos">Sistemas informaticos</td>
+                    <td class="Entornos_de_desarrollo">Entornos de desarrollo</td>
+                    <td class="Entornos_de_desarrollo">Entornos de desarrollo</td>
+                </tr>
+            </tbody>
+        </table>
+        <style>
+            body
+            {
+                text-align: center;
+                .Programacion
+                {
+                    background-color: pink;
+                }
+                .Base_de_datos
+                {
+                    background-color: olivedrab;
+                }
+                .Sistemas_informaticos
+                {
+                    background-color: aqua;
+                }
+                .Entornos_de_desarrollo
+                {
+                    background-color: red;
+                }
+                .Lenguajes_de_marcas
+                {
+                    background-color: khaki;
+                }
+                .Itinerario_personal
+                {
+                    background-color: ghostwhite;
+                }
+                .Sostenibilidad
+                {
+                    background-color: yellow;
+                }
+                .Digitalizacion
+                {
+                    background-color: lime;
+                }
+                .Descanso
+                {
+                    background-color:black;
+                    color:white;
+                }
+            }
+        </style>
+    </body>        
+</html>
